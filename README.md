@@ -26,7 +26,7 @@ Welcome to the **Fitness AI Coach Pro** deployment guide. This document provides
 * **Git:** Installed locally.
 * **Command-line access:** Terminal (macOS/Linux) or CMD/PowerShell (Windows).
  
-##🚀 Hugging Face Deployment
+## 🚀 Hugging Face Deployment
 Method 1: Web Interface (Recommended for Beginners)
 
 ### 1. Create Space
