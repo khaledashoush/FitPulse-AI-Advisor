@@ -10,4 +10,4 @@ pinned: false
 short_description: AI professional Fitness & Exercise Advisor
 ---
 
-Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
+Check out the configuration reference at [https://huggingface.co/docs/hub/spaces-config-reference](https://huggingface.co/spaces/kHALED2225/FitPulse-AI-Advisor)
