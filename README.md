@@ -26,44 +26,32 @@ Welcome to the **Fitness AI Coach Pro** deployment guide. This document provides
 * **Git:** Installed locally.
 * **Command-line access:** Terminal (macOS/Linux) or CMD/PowerShell (Windows).
  
-🚀 Hugging Face Deployment
+##🚀 Hugging Face Deployment
 Method 1: Web Interface (Recommended for Beginners)
-1. Create Space
-Log into Hugging Face.
 
-Navigate to Spaces.
+###1. Create Space
+-Log into Hugging Face.
+-Navigate to Spaces.
+-Click "Create new Space".
 
-Click "Create new Space".
+###2. Configure Space Settings
+-Space name: fitness-ai-coach
+-SDK: Gradio
+-Visibility: Public or Private
 
-2. Configure Space Settings
-Space name: fitness-ai-coach
+###3. Upload Files
+-Upload the following files to your Space repository via the "Files and versions" tab:
+-app.py (The main Python code)
+-requirements.txt (The list of libraries)
+-README.md (This documentation)
 
-SDK: Gradio
+###4. Configure Secrets
+-To keep your API key secure:
+-Go to Space → Settings.
+-Find the Variables and secrets section.
 
-Visibility: Public or Private
-
-License: MIT
-
-3. Upload Files
-Upload the following files to your Space repository via the "Files and versions" tab:
-
-app.py (The main Python code)
-
-requirements.txt (The list of libraries)
-
-README.md (This documentation)
-
-4. Configure Secrets
-To keep your API key secure:
-
-Go to Space → Settings.
-
-Find the Variables and secrets section.
-
-Add a new secret:
-
-Key: GROQ_API_KEY
-
-Value: [Your Groq API Key]
+###Add a new secret:
+-Key: GROQ_API_KEY
+-Value: [Your Groq API Key]
 
 ---
